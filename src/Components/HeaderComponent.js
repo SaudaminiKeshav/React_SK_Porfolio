@@ -6,13 +6,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function HeaderComponent() {
 
     const navstyle = {
-        width: "150%",
+        width: "250%",
         fontSize: "135%",
         marginRight: "30px"
     }
     const titlestyle = {
         width: "10%",
-        fontSize: "175%"
+        fontSize: "255%",
+        marginRight: "75%",
+        marginLeft:"-75px",
+        color:"#DA6897"
     }
 
     return (
