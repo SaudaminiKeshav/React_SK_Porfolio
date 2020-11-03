@@ -8,7 +8,8 @@ function BodyComponent() {
 
     const introStyle = {
         marginTop: "5%",
-        padding: "15px"
+        padding: "15px",
+        marginLeft:"10%"
     }
 
     const exploreButtonStyle = {
@@ -21,7 +22,7 @@ function BodyComponent() {
 
     return (
         <>
-            <div className="component" style={introStyle}>
+            <div  style={introStyle}>
                 <div className="Intro" id="div1">Hello, I'm Saudamini Keshav.</div>
                 <div className="Intro" id="div2" >I'm an Android Mobile and Full-Stack Web Developer.</div>
                 <div className="Intro" id="div3"> <a class="button button--primary welcome__button" href="#skillSetSection" style={exploreButtonStyle}>Explore skills</a></div>
