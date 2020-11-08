@@ -8,27 +8,47 @@ function HeaderComponent() {
     const navstyle = {
         width: "250%",
         fontSize: "135%",
-        marginRight: "30px"
+        marginRight: "30px",
     }
     const titlestyle = {
         width: "10%",
         fontSize: "255%",
         marginRight: "75%",
-        marginLeft:"-75px",
-        color:"#DA6897"
+        marginLeft: "-75px",
+        color: "#e31b6d",
+        fontFamily: 'Caveat, cursive'
     }
 
     return (
         <>
             <Navbar bg="dark" variant="dark" style={{ height: "65px", backgroundColor: "black" }}>
                 <div className="container">
-                    <Navbar.Brand href="#home" style={titlestyle}>SK</Navbar.Brand>
+                    <Navbar.Brand to="/" activeClassName="selected" style={titlestyle}>SK</Navbar.Brand>
                     <Nav className="mr-auto">
-                        <Nav.Link href="#home" style={navstyle}>Home</Nav.Link>
-                        <Nav.Link href="#about" style={navstyle}>About</Nav.Link>
-                        <Nav.Link href="#skills" style={navstyle}>Skills</Nav.Link>
-                        <Nav.Link href="#work" style={navstyle}>Work</Nav.Link>
-                        <Nav.Link href="#contact" style={navstyle}>Contact</Nav.Link>
+
+                        <Nav.Link to="/" 
+                        activeClassName="selected" 
+                        style={navstyle} 
+                        activeStyle={{
+                            fontWeight: "bold",
+                            color: "#e31b6a"
+                        }}>Home</Nav.Link>
+
+                        <Nav.Link to="/work" 
+                        activeClassName="selected" 
+                        style={navstyle} 
+                        activeStyle={{
+                            fontWeight: "bold",
+                            color: "#e31b6a"
+                        }}>Work</Nav.Link>
+                        <Nav.Link to="/about" activeClassName="selected" style={navstyle} activeStyle={{
+                            fontWeight: "bold",
+                            color: "#e31b6a"
+                        }}>About</Nav.Link>
+                        <Nav.Link to="/contact" activeClassName="selected" style={navstyle} activeStyle={{
+                            fontWeight: "bold",
+                            color: "#e31b6a"
+                        }}>Contact</Nav.Link>
                     </Nav>
                 </div>
             </Navbar>

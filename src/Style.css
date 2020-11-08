@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Open+Sans:400italic,300italic);
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
 body {
   background-color: #fff
 }
@@ -30,7 +31,7 @@ Navigation
   opacity: 0;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .overlay-navigation {
     position: fixed;
     z-index: 99;
@@ -108,7 +109,7 @@ nav li a:after {
   transition: all .2s linear;
   opacity: 0;
   position: absolute;
-  z-index:100;
+  z-index: 100;
   color: #fff;
   display: block;
   margin-right: auto;
@@ -217,15 +218,18 @@ Animation keyframes
   0% {
     background-color: #fff;
   }
+
   50% {
     -webkit-transform: translateY(9px);
     transform: translateY(9px)
   }
+
   80% {
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     background-color: #fff
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -237,15 +241,18 @@ Animation keyframes
   0% {
     background-color: #fff;
   }
+
   50% {
     -webkit-transform: translateY(9px);
     transform: translateY(9px)
   }
+
   80% {
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     background-color: #fff
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -257,15 +264,18 @@ Animation keyframes
   0% {
     background-color: #fff;
   }
+
   50% {
     -webkit-transform: translateY(-9px);
     transform: translateY(-9px)
   }
+
   80% {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
     background-color: #fff;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -277,15 +287,18 @@ Animation keyframes
   0% {
     background-color: #fff;
   }
+
   50% {
     -webkit-transform: translateY(-9px);
     transform: translateY(-9px)
   }
+
   80% {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
     background-color: #fff;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -297,9 +310,11 @@ Animation keyframes
   0% {
     background-color: #fff;
   }
+
   80% {
     background-color: #fff;
   }
+
   100% {
     background-color: #29363B;
   }
@@ -309,9 +324,11 @@ Animation keyframes
   0% {
     background-color: #fff;
   }
+
   80% {
     background-color: #fff;
   }
+
   100% {
     background-color: #29363B;
   }
@@ -321,15 +338,18 @@ Animation keyframes
   0% {
     background-color: #29363B
   }
+
   50% {
     -webkit-transform: translateY(9px);
     transform: translateY(9px)
   }
+
   80% {
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     background-color: #29363B
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -341,15 +361,18 @@ Animation keyframes
   0% {
     background-color: #29363B
   }
+
   50% {
     -webkit-transform: translateY(9px);
     transform: translateY(9px)
   }
+
   80% {
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     background-color: #29363B
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -361,15 +384,18 @@ Animation keyframes
   0% {
     background-color: #29363B
   }
+
   50% {
     -webkit-transform: translateY(-9px);
     transform: translateY(-9px)
   }
+
   80% {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
     background-color: #29363B;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -381,15 +407,18 @@ Animation keyframes
   0% {
     background-color: #29363B
   }
+
   50% {
     -webkit-transform: translateY(-9px);
     transform: translateY(-9px)
   }
+
   80% {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
     background-color: #29363B;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -401,9 +430,11 @@ Animation keyframes
   0% {
     background-color: #29363B
   }
+
   80% {
     background-color: #29363B;
   }
+
   100% {
     background-color: #fff;
   }
@@ -413,9 +444,11 @@ Animation keyframes
   0% {
     background-color: #29363B
   }
+
   80% {
     background-color: #29363B;
   }
+
   100% {
     background-color: #fff;
   }
@@ -442,23 +475,29 @@ Animation keyframes
     -webkit-box-direction: normal;
     flex-direction: column;
   }
+
   nav ul li {
     height: 20%;
   }
+
   nav ul li a {
     font-size: 11px;
   }
+
   nav li a:after {
     font-size: 0.6rem;
     bottom: -25px;
   }
+
   nav li a:hover:after {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
+
   .open-overlay {
     right: 1rem;
   }
+
   nav li a:before {
     width: 25px;
   }
@@ -467,7 +506,7 @@ Animation keyframes
 
 
 
-.container{
+.container {
   transform: translate(-50%, -50%);
   top: 75%;
   left: 30%;
@@ -476,8 +515,8 @@ Animation keyframes
   max-width: 750px;
 }
 
-@media only screen and (max-width: 700px){
-  .container{
+@media only screen and (max-width: 700px) {
+  .container {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 35%;
@@ -488,36 +527,36 @@ Animation keyframes
 }
 
 
-.start{
+.start {
   float: left;
   position: relative;
   bottom: -65px;
   left: 50%;
   transform: translateX(-50%) rotate(-10deg);
-  color: #e55643 ;
+  color: #e55643;
   text-transform: uppercase;
   opacity: 1;
   visibility: visible;
   cursor: pointer;
 }
 
-  .title{
-    transform: skew(-10deg);
-    display: block;
-    float: left;
-    text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px,#533d4a 4px 4px;
+.title {
+  transform: skew(-10deg);
+  display: block;
+  float: left;
+  text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px;
 }
 
-h1{
+h1 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 5px;
   margin: 0;
   line-height: 10px;
   letter-spacing: 2px;
 }
 
-.title{
+.title {
   transform: translateX(-50%) rotate(-10deg);
   display: block;
   float: left;
@@ -525,24 +564,26 @@ h1{
   position: relative;
 }
 
-  .title {
-    transform: skew(-10deg);
-    display: block;
-    float: left;
-    text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
-    min-width: 50px;
-    min-height: 10px;
-    position: relative;
-  }
+.title {
+  transform: skew(-10deg);
+  display: block;
+  float: left;
+  text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
+  min-width: 50px;
+  min-height: 10px;
+  position: relative;
+}
 
 .title:nth-child(1) {
   color: #27546F;
 }
+
 .title:nth-child(2) {
-  color:#27546F;
+  color: #27546F;
 }
+
 .title:nth-child(3) {
-  color:#27546F;
+  color: #27546F;
 }
 
 
@@ -552,18 +593,20 @@ h1 {
   margin: 0;
   padding: 0;
 }
+
 section {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   -webkit-box-align: center;
-          align-items: center;
-  color: rgba(0,0,0,0.5);
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
   font-size: 2rem;
   min-height: 100%;
   height: 100vh;
 }
+
 .Quick-navigation {
   position: fixed;
   z-index: 1;
@@ -571,10 +614,11 @@ section {
   top: 50%;
   right: 0;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
+
 .Quick-navigation-item {
-  color: rgba(0,0,0,0.4);
+  color: rgba(0, 0, 0, 0.4);
   text-decoration: none;
   font-size: 1.3em;
   -webkit-transition: color 0.3s;
@@ -582,10 +626,12 @@ section {
   padding: 0.5em;
   display: block;
 }
+
 .Quick-navigation-item:hover,
 .Quick-navigation-item.current {
   color: #fff;
 }
+
 .Scroll-progress-indicator {
   will-change: opacity, transform;
   -webkit-transition: all 0.5s;
@@ -597,14 +643,16 @@ section {
   opacity: 0;
   padding: 2em;
   -webkit-transform: translateX(200%) translateY(-50%);
-          transform: translateX(200%) translateY(-50%);
-  background-color: rgba(0,0,0,0.1);
+  transform: translateX(200%) translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.1);
 }
+
 .Scroll-progress-indicator.visible {
   -webkit-transform: translateX(-100%) translateY(-50%);
-          transform: translateX(-100%) translateY(-50%);
+  transform: translateX(-100%) translateY(-50%);
   opacity: 1;
 }
+
 #A {
   background-color: #000000;
 }
@@ -613,26 +661,28 @@ section {
   position: fixed;
   right: 20px;
   bottom: 0;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   border: none;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 1.5rem;
   padding: 0.5em;
   cursor: pointer;
   opacity: 0;
   -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  transform: translateY(100%);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   outline: none;
 }
+
 .Scroll-to-top.visible {
   opacity: 1;
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
 }
+
 .Scroll-to-top:hover {
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .block {
@@ -642,32 +692,33 @@ section {
   color: #fdfdfd;
   text-align: center;
   margin: 1em auto;
-  text-shadow: 0 0 1px #333; /* so one can see fadeBgColor properly */
+  text-shadow: 0 0 1px #333;
+  /* so one can see fadeBgColor properly */
 }
 
 .animatable {
-  
+
   /* initially hide animatable objects */
   visibility: visible;
-  
+
   /* initially pause animatable objects their animations */
-  -webkit-animation-play-state: paused;   
-  -moz-animation-play-state: paused;     
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
   -ms-animation-play-state: paused;
-  -o-animation-play-state: paused;   
-  animation-play-state: paused; 
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 /* show objects being animated */
 .animated {
   visibility: visible;
-  
+
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
   -ms-animation-fill-mode: both;
   -o-animation-fill-mode: both;
   animation-fill-mode: both;
-  
+
   -webkit-animation-duration: 2s;
   -moz-animation-duration: 2s;
   -ms-animation-duration: 2s;
@@ -682,61 +733,60 @@ section {
 }
 
 @-webkit-keyframes moveUp {
-	0% {
-		opacity: 1;
-		-webkit-transform: translateY(400px);
-	}	100% {
-		opacity: 1;
-		-webkit-transform: translateY(0);
-	}
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(400px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
 }
 
 @-moz-keyframes moveUp {
-	0% {
-		opacity: 1;
-		-moz-transform: translateY(400px);
-	}
+  0% {
+    opacity: 1;
+    -moz-transform: translateY(400px);
+  }
 
-	100% {
-		opacity: 1;
-		-moz-transform: translateY(0);
-	}
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
 }
 
 @-o-keyframes moveUp {
-	0% {
-		opacity: 1;
-		-o-transform: translateY(400px);
-	}
+  0% {
+    opacity: 1;
+    -o-transform: translateY(400px);
+  }
 
-	100% {
-		opacity: 1;
-		-o-transform: translateY(0);
-	}
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
 }
 
 @keyframes moveUp {
-	0% {
-		opacity: 1;
-		transform: translateY(400px);
-	}
+  0% {
+    opacity: 1;
+    transform: translateY(400px);
+  }
 
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .animated.moveUp {
-	-webkit-animation-name: moveUp;
-	-moz-animation-name: moveUp;
-	-o-animation-name: moveUp;
-	animation-name: moveUp;
+  -webkit-animation-name: moveUp;
+  -moz-animation-name: moveUp;
+  -o-animation-name: moveUp;
+  animation-name: moveUp;
 }
 
-.contentdivs{
+.contentdivs {
   height: 300px;
-
-  
-  /* ------- */
-  
+}
