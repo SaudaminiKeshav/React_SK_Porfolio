@@ -1,7 +1,10 @@
 import React from "react";
+import HeaderComponent from "../HeaderComponent.js"
 
 function About() {
   return (
+    <>
+    <HeaderComponent  page={"about"}/>
     <div>
       <h1>About Page</h1>
       <p>
@@ -12,6 +15,7 @@ function About() {
         rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
     </div>
+    </>
   );
 }
 

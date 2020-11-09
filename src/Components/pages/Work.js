@@ -1,7 +1,10 @@
 import React from "react";
+import HeaderComponent from "../HeaderComponent.js"
 
 function Blog() {
   return (
+    <>
+    <HeaderComponent  page={"work"}/>
     <div>
       <h1>Blog Page</h1>
       <p>
@@ -17,6 +20,7 @@ function Blog() {
         non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
     </div>
+    </>
   );
 }
 

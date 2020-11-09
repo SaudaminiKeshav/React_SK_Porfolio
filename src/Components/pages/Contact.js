@@ -1,9 +1,12 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
 import Learn from "./Learn";
+import HeaderComponent from "../HeaderComponent.js"
 
 function Contact(props) {
   return (
+    <>
+    <HeaderComponent  page={"contact"}/>
     <div>
       <h1>Contact Page</h1>
       <p>
@@ -25,6 +28,7 @@ function Contact(props) {
       </Link>
       <Route exact path={`${props.match.url}/learn`} component={Learn} />
     </div>
+    </>
   );
 }
 
