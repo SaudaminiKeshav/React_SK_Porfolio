@@ -73,10 +73,10 @@ function Portfolio() {
             <div className="container" style={{ display: "flex", marginTop: "5%" }}>
                 <img src={QuestionsQuiz} alt="Code Quiz" className="image" style={{ width: "80%" }}></img>
                 <div className="middle">
-                    <div className="text" style={{ width: "100%", textAlign: "center", padding: "5%" }}>
+                    <div className="text" style={{ width: "150%", textAlign: "center", padding: "5%" }}>
                         <h3 style={{ padding: "5% 5% 0 0" }}>Code Quiz</h3>
                         <br />
-                        <Button variant="outlined" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
+                        <Button variant="outlined" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "25%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
                         <br />
                     </div>
                 </div>
