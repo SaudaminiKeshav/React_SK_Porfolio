@@ -39,7 +39,7 @@ function Portfolio() {
                     <div className="text" style={{ width: "110%", textAlign: "center", padding: "1%" }}>
                         <h3 style={{ padding: "5% 5% 0 5%" }}>Virtual Cookbook</h3>
                         <br />
-                        <Button variant="outlined" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
+                        <Button variant="outlined" color="#ef5350" href="#vrtbook" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
                         <br />
                     </div>
                 </div>
@@ -53,7 +53,7 @@ function Portfolio() {
                     <div className="text" style={{ width: "200%", textAlign: "center", padding: "10%" }}>
                         <h3 style={{ padding: "7% 5% 0 7%" }}>Pitch It</h3>
                         <br />
-                        <Button variant="outlined" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "23%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
+                        <Button variant="outlined" color="#ef5350" href="#pitchit" style={{ display: "flex", textAlign: "center", marginLeft: "23%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
                         <br />
                     </div>
                 </div>
@@ -67,7 +67,7 @@ function Portfolio() {
                     <div className="text" style={{ width: "110%", textAlign: "center", padding: "1%" }}>
                         <h3 style={{ padding: "5% 5% 0 5%" }}>Password Generator</h3>
                         <br />
-                        <Button variant="outlined" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
+                        <Button variant="outlined" color="#ef5350" href="#passwordgenerator" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
                         <br />
                     </div>
                 </div>
@@ -81,7 +81,7 @@ function Portfolio() {
                     <div className="text" style={{ width: "150%", textAlign: "center", padding: "5%" }}>
                         <h3 style={{ padding: "5% 5% 0 0" }}>Code Quiz</h3>
                         <br />
-                        <Button variant="outlined" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "25%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
+                        <Button variant="outlined" href="#codequiz" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "25%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
                         <br />
                     </div>
                 </div>
@@ -151,7 +151,7 @@ function Portfolio() {
                     <div className="text" style={{ width: "110%", textAlign: "center", padding: "1%" }}>
                         <h3 style={{ padding: "5% 5% 0 5%" }}>Work Day Scheduler</h3>
                         <br />
-                        <Button variant="outlined" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
+                        <Button variant="outlined" href="#workdayscheduler" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
                         <br />
                     </div>
                 </div>
@@ -247,7 +247,7 @@ function Portfolio() {
                 </div>
 
                 <div id="workdayscheduler" style={{ paddingTop: "10%", color: "white",  marginLeft: "5%", marginRight: "5%" }}>
-                    <hr></hr>
+                <hr style={{ backgroundColor: "white", margin: "5%" }}></hr>
                     <br></br>
                     <img src={WorkDayScheduler} alt="Work Day Scheduler" width="50%" height="auto" style={{ float: "right" }}></img>
                     <h1>Workday Scheduler</h1>
@@ -266,6 +266,10 @@ function Portfolio() {
                         documentation carefully and concentrate on using Moment.js in the browser.
                 </p>
                     <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <hr style={{ backgroundColor: "white", margin: "5%" }}></hr>
                 </div>
             </div>
 
