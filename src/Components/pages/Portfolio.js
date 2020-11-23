@@ -11,10 +11,16 @@ import BudgetTracker from "../../Assets/gif.gif";
 import EmployeeTracker from "../../Assets/Employee-Tracker.PNG";
 import PitchIT from "../../Assets/PitchIt.PNG";
 import Button from '@material-ui/core/Button';
+import Footer from "./Footer.js"
 
 import WorkDayVideomp4 from "../../Assets/Work Day Scheduler.mp4";
 import VirtualCookbookmp4 from "../../Assets/Virtual Cookbook.mp4";
+import pitchit from "../../Assets/pitchitdemo.gif"
 import PasswordGeneratormp4 from "../../Assets/PasswordGenerator.mp4";
+import teamsummarygenerator from "../../Assets/team-generator-gif.gif"
+import noteTaker from "../../Assets/notetaking.gif"
+import employeeTracker from "../../Assets/Employee-Tracker.PNG"
+import budgetTracker from "../../Assets/gif.gif"
 import CodeQuizmp4 from "../../Assets/CodeQuiz.mp4";
 
 const titleStyle = {
@@ -95,7 +101,7 @@ function Portfolio() {
                     <div className="text" style={{ width: "75%", textAlign: "center", padding: "1%" }}>
                         <h3 style={{ padding: "5% 5% 0 5%" }}>Team Summary Profile Generator</h3>
                         <br />
-                        <Button variant="outlined" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
+                        <Button variant="outlined" href="#teamsummarygenerator" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
                         <br />
                     </div>
                 </div>
@@ -109,7 +115,7 @@ function Portfolio() {
                     <div className="text" style={{ width: "150%", textAlign: "center", padding: "5%" }}>
                         <h3 style={{ padding: "5% 5% 0 5%" }}>Note Taker</h3>
                         <br />
-                        <Button variant="outlined" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
+                        <Button variant="outlined" href="#noteTaker" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
                         <br />
                     </div>
                 </div>
@@ -123,7 +129,7 @@ function Portfolio() {
                     <div className="text" style={{ width: "110%", textAlign: "center", padding: "1%" }}>
                         <h3 style={{ padding: "5% 5% 0 5%" }}>Budget Tracker</h3>
                         <br />
-                        <Button variant="outlined" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
+                        <Button variant="outlined" href="#budgetTracker" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
                         <br />
                     </div>
                 </div>
@@ -137,7 +143,7 @@ function Portfolio() {
                     <div className="text" style={{ width: "130%", textAlign: "center", padding: "5%" }}>
                         <h3 style={{ padding: "5% 5% 0 5%" }}>Employee Tracker</h3>
                         <br />
-                        <Button variant="outlined" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
+                        <Button variant="outlined" href="#employeeTracker" color="#ef5350" style={{ display: "flex", textAlign: "center", marginLeft: "30%", color: "#ef5350", borderHeight: "2px" }}>Explore</Button>
                         <br />
                     </div>
                 </div>
@@ -159,16 +165,16 @@ function Portfolio() {
 
             <div className="parallax"></div>
 
-            <div class="project-details" style={{ paddingTop: "10%", color: "white", marginTop: "20%", marginLeft: "5%", marginRight: "5%" }}>
+            <div class="project-details" style={{ paddingTop: "10%", height: "50%", color: "white", marginTop: "20%", marginLeft: "5%", marginRight: "5%" }}>
                 <div id="vrtbook">
-                    <hr style={{ backgroundColor: "white", margin: "5%" }}></hr>
+                    <hr style={{ backgroundColor: "white", margin: "5%", height: "50%" }}></hr>
                     <br></br>
-                    <div id="modal01" className="w3-modal" onclick="this.style.display='none'" style={{ width: "50%", height: "auto", float: "right", marginLeft: "5%" }}>
+                    <div id="modal01" className="w3-modal" onclick="this.style.display='none'" style={{ width: "50%", height: "50%", float: "right", marginLeft: "5%" }}>
                         <span className="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-                        <div className="w3-modal-content w3-animate-zoom">
-                            <video width="100%" height="80%" controls autoplay>
+                        <div className="w3-modal-content w3-animate-zoom" style={{ height: "50%", marginTop: "-100px" }}>
+                            <video width="85%" height="50%" controls autoplay>
                                 <source src={VirtualCookbookmp4}
-                                    type="video/mp4"></source>
+                                    type="video/mp4" style={{ height: "50%" }}></source>
                     Your browser does not support the video tag.
                 </video>
                         </div>
@@ -185,12 +191,31 @@ function Portfolio() {
                         as well as find recipes based on their desired ingredients. Key features the ability
                         to save personal recipes on different devices as well as search and save recipes
                     based on specific ingredients.</p>
-                    <br></br>
+                    <br></br><br></br>  <br></br>
                 </div>
 
-                <div id="codequiz" style={{ paddingTop: "10%", color: "white", marginTop: "10%", marginLeft: "5%", marginRight: "5%" }}>
+                <div id="pitchit">
                     <hr style={{ backgroundColor: "white", margin: "5%" }}></hr>
+                    <div id="modal01" className="w3-modal" onclick="this.style.display='none'" style={{ width: "50%", height: "auto", float: "right", marginLeft: "5%" }}>
+                        <span className="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                        <div className="w3-modal-content w3-animate-zoom">
+                            <img src={pitchit}></img>
+                        </div>
+                    </div>
+                    <h1>Pitch It</h1>
                     <br></br>
+                    <h5> Website Link - Coming soon!</h5>
+                    <h5> GitHub repository Link - <a href="https://github.com/SaudaminiKeshav/PitchIT"
+                        style={{ fontFamily: "Roboto Slab, serif", color: "#ef5350" }}>Virtual Cookbook</a></h5>
+                    <h5>Description -</h5>
+                    <p style={{ width: "50%" }}>
+                        This application will allow like-minded outdoors-men and women to plan unique trips with
+                        their friends. The users will be able to create new adventures, invite friends, choose a location, and write out all the supplies they may need.</p>
+                </div>
+
+                <div id="codequiz" style={{ paddingTop: "10%", color: "white", marginLeft: "5%", marginRight: "5%" }}>
+                    <hr style={{ backgroundColor: "white", margin: "5%" }}></hr>
+                    
                     <div id="modal02" className="w3-modal" onclick="this.style.display='none'" style={{ width: "50%", height: "auto", float: "right", marginLeft: "5%" }}>
                         <span className="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
                         <div className="w3-modal-content w3-animate-zoom">
@@ -214,11 +239,33 @@ function Portfolio() {
                         JavaScript code. It will also feature a clean and polished user interface and be
                         responsive, ensuring that it adapts to multiple screen sizes.
                 </p>
+                    <br></br> <br></br>
+                </div>
+
+                <div id="teamsummarygenerator" style={{ color: "white", marginLeft: "5%", marginRight: "5%" }}>
+                    <hr style={{ backgroundColor: "white", margin: "5%" }}></hr>
+                    <br></br>
+                    <div id="modal03" className="w3-modal" onclick="this.style.display='none'" style={{ width: "50%", height: "50%", float: "right", marginLeft: "5%", marginTop:"-50px" }}>
+                        <span className="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                        <div className="w3-modal-content w3-animate-zoom">
+                            <img src={teamsummarygenerator} style={{ width: "85%", height: "50%"}}></img>
+                        </div>
+                    </div>
+                    <h1>Team Summary Generator</h1>
+                    <br></br>.
+                <h5> Website Link - CLI application</h5>
+                    <h5> GitHub repository Link - <a href="https://github.com/SaudaminiKeshav/Team-Profile-Summary-Generator"
+                        style={{ fontFamily: "Roboto Slab, serif", color: "#ef5350" }}>Team Summary Generator</a></h5>
+                    <h5>Description -</h5>
+                    <p style={{ width: "50%" }}>
+                        This web application is a software engineering team generator command line application that helps generator a Summary of the team. 
+                        The application will prompt the user for information about the team manager and then information about the team members.
+                </p>
                     <br></br>
                 </div>
 
-                <div id="passwordgenerator"  style={{ paddingTop: "10%", color: "white",  marginLeft: "5%", marginRight: "5%" }}>
-                <hr style={{ backgroundColor: "white", margin: "5%" }}></hr>
+                <div id="passwordgenerator" style={{ color: "white", marginLeft: "5%", marginRight: "5%" }}>
+                    <hr style={{ backgroundColor: "white", margin: "5%" }}></hr>
                     <br></br>
                     <div id="modal03" className="w3-modal" onclick="this.style.display='none'" style={{ width: "50%", height: "auto", float: "right", marginLeft: "5%" }}>
                         <span className="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
@@ -246,8 +293,8 @@ function Portfolio() {
                     <br></br>
                 </div>
 
-                <div id="workdayscheduler" style={{ paddingTop: "10%", color: "white",  marginLeft: "5%", marginRight: "5%" }}>
-                <hr style={{ backgroundColor: "white", margin: "5%" }}></hr>
+                <div id="workdayscheduler" style={{ paddingTop: "10%", color: "white", marginLeft: "5%", marginRight: "5%" }}>
+                    <hr style={{ backgroundColor: "white", margin: "5%" }}></hr>
                     <br></br>
                     <img src={WorkDayScheduler} alt="Work Day Scheduler" width="50%" height="auto" style={{ float: "right" }}></img>
                     <h1>Workday Scheduler</h1>
@@ -269,7 +316,69 @@ function Portfolio() {
                     <br></br>
                     <br></br>
                     <br></br>
+                </div>
+
+                <div id="noteTaker" style={{ color: "white", marginLeft: "5%", marginRight: "5%" }}>
                     <hr style={{ backgroundColor: "white", margin: "5%" }}></hr>
+                    <br></br>
+                    <div id="modal03" className="w3-modal" onclick="this.style.display='none'" style={{ width: "50%", height: "50%", float: "right", marginLeft: "5%", marginTop:"-50px" }}>
+                        <span className="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                        <div className="w3-modal-content w3-animate-zoom">
+                            <img src={noteTaker} style={{ width: "85%", height: "50%"}}></img>
+                        </div>
+                    </div>
+                    <h1>Express Note Taker</h1>
+                    <br></br>.
+                <h5> Website Link -  <a href="https://note-taker-express-application.herokuapp.com/"
+                        style={{ fontFamily: "Roboto Slab, serif", color: "#ef5350" }}>Note Taker</a></h5>
+                    <h5> GitHub repository Link - <a href="https://github.com/SaudaminiKeshav/Express-Note-Taker"
+                        style={{ fontFamily: "Roboto Slab, serif", color: "#ef5350" }}>Note Taker</a></h5>
+                    <h5>Description -</h5>
+                    <p style={{ width: "50%" }}>
+                    This application can be used to write, save, and delete notes. This NodeJS application uses an Express backend to save and retrieve note data.   </p>
+                    <br></br>
+                </div>
+
+                <div id="budgetTracker" style={{ color: "white", marginLeft: "5%", marginRight: "5%" }}>
+                    <hr style={{ backgroundColor: "white", margin: "5%" }}></hr>
+                    <br></br>
+                    <div id="modal03" className="w3-modal" onclick="this.style.display='none'" style={{ width: "50%", height: "50%", float: "right", marginLeft: "5%", marginTop:"-50px" }}>
+                        <span className="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                        <div className="w3-modal-content w3-animate-zoom">
+                            <img src={budgetTracker} style={{ width: "85%", height: "50%"}}></img>
+                        </div>
+                    </div>
+                    <h1>Offline online budget tracker</h1>
+                    <br></br>.
+                <h5> Website Link -  <a href="https://onlineoffline-budget-tracker.herokuapp.com/"
+                        style={{ fontFamily: "Roboto Slab, serif", color: "#ef5350" }}>Offline online budget tracker</a></h5>
+                    <h5> GitHub repository Link - <a href="https://github.com/SaudaminiKeshav/Online-Offline-Budget-Tracker"
+                        style={{ fontFamily: "Roboto Slab, serif", color: "#ef5350" }}>Offline online budget tracker</a></h5>
+                    <h5>Description -</h5>
+                    <p style={{ width: "50%" }}>
+                    A budget tracker PWA that uses Webpack and IndexedDB for online/offline capabilities   </p>
+                    <br></br>
+                </div>
+
+                <div id="employeeTracker" style={{ color: "white", marginLeft: "5%", marginRight: "5%" }}>
+                    <hr style={{ backgroundColor: "white", margin: "5%" }}></hr>
+                    <br></br>
+                    <div id="modal03" className="w3-modal" onclick="this.style.display='none'" style={{ width: "50%", height: "50%", float: "right", marginLeft: "5%", marginTop:"-50px" }}>
+                        <span className="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                        <div className="w3-modal-content w3-animate-zoom">
+                            <img src={employeeTracker} style={{ width: "85%", height: "50%"}}></img>
+                        </div>
+                    </div>
+                    <h1>React Employee Directory</h1>
+                    <br></br>.
+                <h5> Website Link -<a href="https://employee-directory-reactwebapp.herokuapp.com/"
+                        style={{ fontFamily: "Roboto Slab, serif", color: "#ef5350" }}>React Employee Directory</a></h5>
+                    <h5> GitHub repository Link - <a href="https://github.com/SaudaminiKeshav/React_Employee_Directory"
+                        style={{ fontFamily: "Roboto Slab, serif", color: "#ef5350" }}>React Employee Directory</a></h5>
+                    <h5>Description -</h5>
+                    <p style={{ width: "50%" }}>
+                    An employee directory powered by React which gives user the ability to view entire employee directory at once and have a quick access to their information.    </p>
+                    <br></br>
                 </div>
             </div>
 
@@ -311,7 +420,7 @@ function Portfolio() {
                 </video>
                 </div>
             </div> */}
-
+            <Footer />
         </>
     );
 }

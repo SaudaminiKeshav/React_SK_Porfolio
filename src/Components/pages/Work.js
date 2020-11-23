@@ -8,6 +8,7 @@ import TeamSummaryProfileGenerator from "../../Assets/Team_Summary_Profile_Gener
 import NoteTaker from "../../Assets/Note_Taker.png";
 import BudgetTracker from "../../Assets/gif.gif";
 import EmployeeTracker from "../../Assets/Employee-Tracker.PNG";
+import Footer from "./Footer.js"
 
 // import './Work.css';
 
@@ -135,6 +136,7 @@ function Work() {
         </div>
 
       </section>
+      <Footer />
     </>
   );
 }

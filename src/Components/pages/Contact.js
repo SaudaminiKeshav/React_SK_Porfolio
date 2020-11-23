@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
 import Learn from "./Learn";
+import Footer from "./Footer.js"
 import HeaderComponent from "../HeaderComponent.js"
 import "./Contact.css";
 
@@ -61,6 +62,7 @@ function Contact(props) {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

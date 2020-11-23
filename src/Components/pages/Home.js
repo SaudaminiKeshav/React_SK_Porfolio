@@ -2,6 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
 import HeaderComponent from "../HeaderComponent.js"
+import Footer from "./Footer.js"
 import design from "../../Assets/design.PNG"
 
 function Home() {
@@ -144,6 +145,7 @@ function Home() {
                     </div>
                 </section>
             </section>
+            <Footer />
         </>
     );
 }
